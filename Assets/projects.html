@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styleprojects.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"> Alexis Wilson</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+        <nav id="hamburger-nav">
+            <div class="logo">Alexis Wilson</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul>
+                  <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                  <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                  <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                  </ul>
+
+              </div>
+            </div>
+          </nav>
+
+          <div id="slider">
+            <h1>WEBPAGES</h1>
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                         <li><a href="https://github.com/awils00/Websites"><img src="college_of_music.png" alt="college">
+                         </a></li>
+                        </div>
+                     </div>
+
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                       <li><a href="https://github.com/awils00/Websites"><img src="sunfishracing.png" alt="sunfishracing">
+                       </a></li>  </div>
+                     </div>
+
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <li><a href="https://github.com/awils00/Websites"><img src="THEGARDENCOMPANYPART1.png" alt="GardenCompany">
+                           </a></li></div>
+                     </div>
+                
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+            </div>
+
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+            </div>
+         
+
+         <div id="slidertwo">
+          <h1>ARTWORK</h1>
+          <input type="radio" name="slider" id="slide4" checked>
+          <input type="radio" name="slider" id="slide5">
+          <input type="radio" name="slider" id="slide6">
+          <div id="slidestwo">
+             <div id="overflowtwo">
+                <div class="inner">
+                   <div class="slide slide_4">
+                      <div class="slide-content">
+                        <img src="frogportfolio.png" alt="college">
+
+                      </div>
+                   </div>
+                   <div class="slide slide_5">
+                      <div class="slide-content">
+                      <img src="chinchillinportfolio.png" alt="sunfishracing">
+                      </div>
+                   </div>
+                   <div class="slide slide_6">
+                      <div class="slide-content">
+                         <img src="sketchportfolio.png" alt="GardenCompany">
+                      </div>
+                   </div>
+              
+                      </div>
+                   </div>
+                </div>
+             </div>
+         
+          <div id="controlstwo">
+             <label for="slide4"></label>
+             <label for="slide5"></label>
+             <label for="slide6"></label>
+          </div>
+
+          <div id="bulletstwo">
+             <label for="slide4"></label>
+             <label for="slide5"></label>
+             <label for="slide6"></label>
+          </div>
+       
+
+          <script src="script.js" >
+        </script>
+    </body>
+</html>
