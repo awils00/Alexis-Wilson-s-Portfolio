@@ -484,7 +484,7 @@ a:hover{
   width: 100%;
 }
 
-#slidertwo img[src="chinchillinportfolio.png"] {
+#slidertwo img[src="chinchillin2.png"] {
   width: 100%;
   
 }
@@ -496,7 +496,7 @@ a:hover{
 
 @media screen and (min-width: 900px) {
   #slidertwo img[src="frogportfolio.png"],
-  #slidertwo img[src="chinchillinportfolio.png"],
+  #slidertwo img[src="chinchillin2.png"],
   #slidertwo img[src="sketchportfolio.png"] {
     max-width: 600px; /* Adjust the max-width as needed */
     max-height: 380px;
